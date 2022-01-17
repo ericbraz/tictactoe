@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="tictactoe.js" defer></script>
+    <link rel="stylesheet" href="dist/css/styles.css">
+    <title>Tic Tac Toe — Multiplayer Game</title>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="game">
+        <div id="beginning">
+            <div id="name" data-input-divs>
+                <div>
+                    <input type="text" required>
+                    <label>1<sup>st</sup> Player</label>
+                </div>
+                <div>
+                    <input type="text" required>
+                    <label>2<sup>nd</sup> Player</label>
+                </div>
+                <div id="button">
+                    <a href="#" class="gray">Começar Jogo</a>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="players">
+                <p>Player One</p>
+                <p><img src="img/x-tic-tac-toe.png"></p>
+                <p>Player Two</p>
+                <p><img src="img/circulo-tic-tac-toe.png"></p>
+            </div>
+            <div id="game-content">
+                <div>
+                    <p id="block1"></p>
+                </div>
+                <div>
+                    <p id="block2"></p>
+                </div>
+                <div>
+                    <p id="block3"></p>
+                </div>
+                <div>
+                    <p id="block4"></p>
+                </div>
+                <div>
+                    <p id="block5"></p>
+                </div>
+                <div>
+                    <p id="block6"></p>
+                </div>
+                <div>
+                    <p id="block7"></p>
+                </div>
+                <div>
+                    <p id="block8"></p>
+                </div>
+                <div>
+                    <p id="block9"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="block-screen">
+        <p></p>
+        <p><a href="#">Novos jogadores</a></p>
+        <p><a href="#">Reiniciar este jogo</a></p>
+    </div>
+    <script src="button-activation.js" defer></script>
+    <script src="openGame.js" defer></script>
+</body>
+</html>
